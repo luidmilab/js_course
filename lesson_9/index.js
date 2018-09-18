@@ -1,6 +1,6 @@
 'use strict'
 
-console.log ('"Башлий Людмила"');
+console.log ("Башлий Людмила");
 
 const a = 19;
 const b = 8;

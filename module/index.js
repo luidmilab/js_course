@@ -59,16 +59,30 @@ function fact(number){
 //row(3, -4, 5, '<') // вернет "-4 < 3 < 5"
 //row(3, -4, 5, '>') // вернет "5 > 3 > -4"
 
-let b;
-let c;
-let d;
-let mark = '';
+	let b;
+	let c;
+	let d;
+	let mark = '';
 
-function row(a, b, c, mark){
+function row(b, c, d, mark){
 	let result;
-	if (mark === '>'){
-		resalt = (functi)
+	let arr = [];
+	arr.push(b,c,d);
 
+	if (mark === '>'){
+		arr.sort(function(x,y){
+			return x - y;
+		});
+		result = arr.join('>');
+
+	} else if (mark === '<'){
+		arr.sort(function(x,y){
+			return y - x;
+		});
+
+		result = arr.join('<');
 	}
+		
+	return result;
 
 }

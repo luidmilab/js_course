@@ -86,3 +86,32 @@ function row(b, c, d, mark){
 	return result;
 
 }
+//5
+//Написать функцию “matrixDiff”, которая принимает 2 аргумента, каждый из аргументов это массив массивов чисел.
+//Она должна вернуть сумму абсолютных разниц соответствующих элементов этих структур. И должна вернуть NaN, если размеры массивов не совпадают.
+
+//Пример:
+//matrixDiff(
+ //[[2, 3], [4, 5]],
+ //[[2, /1], [6, 5]],
+//); // вернет 4, так как |3 - 1| + |4 - 6| = 4
+//matrixDiff([[2, 3], [4, 5]],[[2, 1], [6]]); // вернет NaN
+
+let inArr1 = [];
+let inArr2 = [];
+let inArr3 = [];
+let inArr4 = [];
+let arrOne = [inArr1,inArr2];
+let arrTwo = [inArr3,inArr4];
+
+
+function matrixDiff (arrOne, arrTwo){
+	let sum;
+
+	if (inArr1.length !== inArr3.length && inArr2.length !== inArr4.length){
+		sum = NaN;
+	} 
+	
+
+	return sum;
+}

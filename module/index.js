@@ -8,10 +8,31 @@ function itsMe(a) {
 }
 
 //2
-const numOne;
-const numTwo;
+let numOne;
+let numTwo;
 
 function compare(numOne, numTwo){
+	let res;
+	if (numOne > numTwo) {
+		console.log ('numOne > numTwo');
+		
+
+	}	else if (numOne < numTwo) {
+		console.log ('umOne < numTwo');
+		
+
+	} 	else if (numOne !== numTwo) {
+		console.log ('numOne == numTwo');
+		
+
+	} 	else if (typeof (numOne)!== 'number' || typeof(numTwo)!== 'number') {
+		console.log ('НЕ ЧИСЛО');
 	
-	return ;
-}
+	}
+
+	}
+
+	//3
+	
+			
+	
